@@ -2,8 +2,7 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=10805476)
 # ACTL4001 Assignment - 2023 SOA Research Challenge
 
-![image](https://user-images.githubusercontent.com/86914259/230892018-79686683-abac-4fe9-a98e-a41cb9b91067.png)
-
+<img src="https://user-images.githubusercontent.com/86914259/230893377-bbd121d5-bad0-431d-bed2-797a52115846.jpg" width="900">
 
 Storlysia Relocation Social Insurance Program Report 2023 <br />
 The Thunderbolts,
