@@ -2,31 +2,24 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=10805476)
 # ACTL4001 Assignment - 2023 SOA Research Challenge
 
-
-
-Storlysia Relocation Social Insurance Program Report
-2023
-
-
-The Thunderbolts
-UNSW
-Alex Chen
-Ji Min Eun
-Brian Lei
+Storlysia Relocation Social Insurance Program Report 2023 <br />
+The Thunderbolts,
+UNSW <br />
+Alex Chen,
+Ji Min Eun, 
+Brian Lei,
 Samuel Soo
 
-
- 
 ## Objectives
 Storlysia has found itself impacted by severe weather catastrophes resulting in emergency relocation of its citizens. In order to reduce the negative impact on Storlysia’s economy and provide social/financial aid to its citizens, we propose the following relocation program.
 The main objectives of the Storlysia Social Relocation Insurance Program are as follows:
 1. Create a program, the Proactive Relocation Program, to incentivise individuals/households to relocate to a region that is less exposed to climate catastrophe risks. This voluntary program will cover:
--	Relocation Rebate
+  -	Relocation Rebate
 2. Create a program, the Involuntary Relocation Program, to support individuals/households that are impacted by a climate catastrophe. This involuntary program will cover:
--	Short-term Accommodation
--	Medical Aid & Psychological Counselling
--	Permanent Relocation
-3.Reduce the long term impact of climate catastrophes on Storlysia’s economy and the financial and social wellbeing of Storlysia’s citizens.
+  -	Short-term Accommodation
+  -	Medical Aid & Psychological Counselling
+  -	Permanent Relocation
+3. Reduce the long term impact of climate catastrophes on Storlysia’s economy and the financial and social wellbeing of Storlysia’s citizens.
 ### Monitored Reporting
 The key metrics to be used in judging the progress of objectives is shown below.
 | Metric | Rationale | Timeframe |
@@ -36,6 +29,7 @@ The key metrics to be used in judging the progress of objectives is shown below.
 | GDP lost to climate catastrophes | The GDP lost to climate catastrophes should decrease as less citizens are affected by issues such as medical aid and lost income due to climate events. | Evaluated annually |
 | Claim count | The number of claims lodged by the citizens of Storlysia, representing engagement with the insurance scheme. | Evaluated monthly |
 | Total claim amount | The total amount paid out in claims from the program, which should be inline with expectations and be comparable to damages without the insurance program. | Evaluated monthly |
+
  
 ## Program Design
 ### Proactive Relocation Program
@@ -86,6 +80,9 @@ To provide social and financial aid to individuals/households that have been aff
  
 ## Pricing and Costs
 ### Overall summary
+
+![image](https://user-images.githubusercontent.com/86914259/230884874-e55c6356-8a62-4308-98d4-7d518dc18145.png)
+
  
 The graphs above show the costs with and without the involuntary and voluntary relocation rebates, in both the short-term and long term
 ### Voluntary relocation rebate
@@ -112,8 +109,11 @@ In order to estimate total rebate costs for the proactive relocation program, we
 
 The population estimates in between were used to estimate the number of people relocating due to weather catastrophes (assumed to be 4% of total mobility).
 The figure below shows the expected annual rebate values annually.
- 
- 
+
+![image](https://user-images.githubusercontent.com/86914259/230884915-4882662d-e3e7-42cf-b2c6-e26265783a88.png)
+
+![image](https://user-images.githubusercontent.com/86914259/230884923-e5228d4a-822f-4b90-b13a-d3100cbd5d62.png)
+
 ### Economic capital requirements
   
 As seen in the chart above, we have projections about the economic cost, leading to a recommended amount of capital required for these rebate programs. 
@@ -143,8 +143,7 @@ The following outlines key potential risks to the proposed relocation program an
 
 | Risk | Likelihood | Mitigation |
 | ---- | ---------- | ---------- |
-| Under-participation of program due to reluctance of relocation and perceived lack of incentives poses risk |
-Will need to measure market participation size after initiating campaign |Utilise unused budget for marketing purposes in order to attract more participants |
+| Under-participation of program due to reluctance of relocation and perceived lack of incentives poses risk | Will need to measure market participation size after initiating campaign |Utilise unused budget for marketing purposes in order to attract more participants |
 | Higher than expected participation rate with unprepared budget | Will need to measure market participation size after initiating campaign. | Impose an annual threshold limit on claim counts to allow distributed rebates |
 
 Other risks identified are political and regulatory changes, cybersecurity threats, and prolonged economic depression periods.
@@ -190,58 +189,55 @@ Coverages
 Consequently, we should see a 100 million Ꝕ reduction in property damages from severe weather catastrophes by 2050. The population proportion in each of Storlysia’s regions should be positioned to resist social and financial impacts from catastrophes, as we situate the majority of Storlysia’s population in regions 1, 2, & 3.
 Furthermore, our involuntary relocation program will provide financial rebates to support short term housing, rebuilding food, accommodation, medical costs and other essentials as rebates to reduce the impact on Storlysia’s economy. The main justification for this is to reduce the time of recovery for affected communities and thus reduce the total economic damage.
 
-
-
-
  
 ## Appendix
-1 Netherlands and Storylsia economy size comparison
+### 1. Netherlands and Storylsia economy size comparison
 |     | Netherlands | Storylsia |
 | --- | ----------- | --------- |
-|GDP, 2021 <br \> (US$ mil) | 1,01,007 | 981,786 |
+|GDP, 2021 <br /> (US$ mil) | 1,013,007 | 981,786 |
 | Census Population | 17,533,044 (2023) | 18,379,116 (2021) |
 
 Source: World Bank, Historical Storylsia Data
 
-2 Random Walk Model and Economic Forecasts
+### 2. Random Walk Model and Economic Forecasts
 RBA published results and performance of using a random walk model to forecast time-series inflation and interest rates.
 https://www.rba.gov.au/publications/rdp/2003/2003-12/results.html
 https://www.rba.gov.au/publications/rdp/1989/8906/inflation-and-interest-rates.html
 
-3 Historic Storylsia’s Inflation and interest rate correlation matrix
+### 3. Historic Storylsia’s Inflation and interest rate correlation matrix
  
 ![image](https://user-images.githubusercontent.com/86914259/230845421-6a79975f-dd5d-4328-a71e-92613458ef14.png)
 
 ![image](https://user-images.githubusercontent.com/86914259/230845444-25197cf6-08c5-4088-9ebb-645fa299b2fa.png)
 
 
-4 Predicting population relocation in Storlysia.
+### 4. Predicting population relocation in Storlysia.
 Population relocation projections were done in the sheet Population_Estimates.xlsx.
 A logarithmic curve with adjustments was used to predict year by year population, with the objective population per region calculated as per Stable Region Population.
 
-5. Total Annual Rebate for Voluntary Relocation Program by Year
+### 5. Total Annual Rebate for Voluntary Relocation Program by Year
 | Year | Rebate | Year | Rebate | Year | Rebate | Year | Rebate |
 | ---- | ------ | ---- | ------ | ---- | ------ | ---- | ------ |
-| 2022 | 30000000 | 2030 | 12385669.2 |	2038 | 6725308.616 | 2046 | 4615470.184 |
-| 2023 | 30000000 | 2031 | 11203885.72 | 2039 | 6359182.595 | 2047 | 4451648.204 |
-| 2024 | 30000000 | 2032 | 10237622.95 | 2040 | 6041633.923 | 2048 | 4278465.613 |
-| 2025 | 26242797.34 | 2033 | 9426357.537 | 2041 | 5742026.498 | 2049 | 4125964.89 |
-| 2026 | 21420216.22 | 2034 | 8728889.627 | 2042 | 5468322.467 | 2050 | 3982176.008 |
-| 2027 | 18117091.66 | 2035 | 8109744.154 | 2043 | 5238563.198 |		
-| 2028 | 15688375.18 | 2036 | 7592008.11 | 2044	 |5009909.416 |		
-| 2029 | 13855997.77 | 2037 | 7127150.538 | 2045 | 4806429.866 |		
+| 2022 | 30000000 | 2030 | 12385669 |	2038 | 6725309 | 2046 | 4615470 |
+| 2023 | 30000000 | 2031 | 11203886 | 2039 | 6359183 | 2047 | 4451648 |
+| 2024 | 30000000 | 2032 | 10237623 | 2040 | 6041634 | 2048 | 4278466 |
+| 2025 | 26242797 | 2033 | 9426358  | 2041 | 5742026 | 2049 | 4125965 |
+| 2026 | 21420216 | 2034 | 8728890  | 2042 | 5468322 | 2050 | 3982176 |
+| 2027 | 18117092 | 2035 | 8109744  | 2043 | 5238563 |		
+| 2028 | 15688375 | 2036 | 7592008  | 2044	 |5009909 |		
+| 2029 | 13855998 | 2037 | 7127151  | 2045 | 4806430 |		
 
-6. Prepandemic research by McKinsey found that, on average, companies experience a disruption of one to two months in duration every 3.7 years.
+### 6. Prepandemic research by McKinsey found that, on average, companies experience a disruption of one to two months in duration every 3.7 years.
 
 
-7. Fitting hazard distributions 
+### 7. Fitting hazard distributions 
 Rono, A., Ogutu, C. and Weke, P. (2020) “On compound distributions for natural disaster modelling in Kenya,” International Journal of Mathematics and Mathematical Sciences, 2020, pp. 1–8. Available at: https://doi.org/10.1155/2020/9398309. 
 
-The following methodology was applied to fit severity distributions to the hazard data
-• Data was analysed at a region and aggregate level
-&nbsp;&nbsp;&nbsp;&nbsp;o At an aggregate level, region-spanning events were collapsed into one single event, to maintain independence of natural hazards assumption
-• A combination of scale/shape parameter stability, a mean excess plot and a Gerstengarbe plot was used to determine optimal thresholds for fitting a General Pareto Distribution
-&nbsp;&nbsp;&nbsp;&nbsp;o This was similar to the methodology employed by Rono et. Al in On Compound Distributions for Natural Disaster Modelling in Kenya (hindawi.com)
+The following methodology was applied to fit severity distributions to the hazard data: <br />
+• Data was analysed at a region and aggregate level. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;o At an aggregate level, region-spanning events were collapsed into one single event, to maintain independence of natural hazards assumption. <br />
+• A combination of scale/shape parameter stability, a mean excess plot and a Gerstengarbe plot was used to determine optimal thresholds for fitting a General Pareto Distribution. <br />
+&nbsp;&nbsp;&nbsp;&nbsp;o This was similar to the methodology employed by Rono et. Al 2020 <br />
 • After optimal thresh-holds were determined for the middle and upper hazards, General Pareto distributions were fit on the top three thresholds (extreme, upper and middle), while a Weibull distribution was used to fit to the lower distribution
 
 
