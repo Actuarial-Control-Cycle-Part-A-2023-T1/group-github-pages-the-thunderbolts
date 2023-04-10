@@ -137,8 +137,7 @@ The following outlines key potential risks to the proposed relocation program an
 
 | Risk | Likelihood | Mitigation |
 | ---- | ---------- | ---------- |
-| Under-participation of program due to reluctance of relocation and perceived lack of incentives poses risk |
-Will need to measure market participation size after initiating campaign |Utilise unused budget for marketing purposes in order to attract more participants |
+| Under-participation of program due to reluctance of relocation and perceived lack of incentives poses risk | Will need to measure market participation size after initiating campaign |Utilise unused budget for marketing purposes in order to attract more participants |
 | Higher than expected participation rate with unprepared budget | Will need to measure market participation size after initiating campaign. | Impose an annual threshold limit on claim counts to allow distributed rebates |
 
 Other risks identified are political and regulatory changes, cybersecurity threats, and prolonged economic depression periods.
@@ -189,53 +188,54 @@ Furthermore, our involuntary relocation program will provide financial rebates t
 
  
 ## Appendix
-1 Netherlands and Storylsia economy size comparison
+### 1.  Netherlands and Storylsia economy size comparison
 |     | Netherlands | Storylsia |
 | --- | ----------- | --------- |
-|GDP, 2021 <br \> (US$ mil) | 1,01,007 | 981,786 |
+|GDP, 2021 <br /> (US$ mil) | 1,01,007 | 981,786 |
 | Census Population | 17,533,044 (2023) | 18,379,116 (2021) |
 
 Source: World Bank, Historical Storylsia Data
 
-2 Random Walk Model and Economic Forecasts
+### 2. Random Walk Model and Economic Forecasts
 RBA published results and performance of using a random walk model to forecast time-series inflation and interest rates.
 https://www.rba.gov.au/publications/rdp/2003/2003-12/results.html
 https://www.rba.gov.au/publications/rdp/1989/8906/inflation-and-interest-rates.html
 
-3 Historic Storylsia’s Inflation and interest rate correlation matrix
+### 3. Historic Storylsia’s Inflation and interest rate correlation matrix
  
 ![image](https://user-images.githubusercontent.com/86914259/230845421-6a79975f-dd5d-4328-a71e-92613458ef14.png)
 
 ![image](https://user-images.githubusercontent.com/86914259/230845444-25197cf6-08c5-4088-9ebb-645fa299b2fa.png)
 
 
-4 Predicting population relocation in Storlysia.
+### 4. Predicting population relocation in Storlysia.
 Population relocation projections were done in the sheet Population_Estimates.xlsx.
 A logarithmic curve with adjustments was used to predict year by year population, with the objective population per region calculated as per Stable Region Population.
 
-5. Total Annual Rebate for Voluntary Relocation Program by Year
+### 5. Total Annual Rebate for Voluntary Relocation Program by Year
+
 | Year | Rebate | Year | Rebate | Year | Rebate | Year | Rebate |
 | ---- | ------ | ---- | ------ | ---- | ------ | ---- | ------ |
-| 2022 | 30000000 | 2030 | 12385669.2 |	2038 | 6725308.616 | 2046 | 4615470.184 |
-| 2023 | 30000000 | 2031 | 11203885.72 | 2039 | 6359182.595 | 2047 | 4451648.204 |
-| 2024 | 30000000 | 2032 | 10237622.95 | 2040 | 6041633.923 | 2048 | 4278465.613 |
-| 2025 | 26242797.34 | 2033 | 9426357.537 | 2041 | 5742026.498 | 2049 | 4125964.89 |
-| 2026 | 21420216.22 | 2034 | 8728889.627 | 2042 | 5468322.467 | 2050 | 3982176.008 |
-| 2027 | 18117091.66 | 2035 | 8109744.154 | 2043 | 5238563.198 |		
-| 2028 | 15688375.18 | 2036 | 7592008.11 | 2044	 |5009909.416 |		
-| 2029 | 13855997.77 | 2037 | 7127150.538 | 2045 | 4806429.866 |		
-
-6. Prepandemic research by McKinsey found that, on average, companies experience a disruption of one to two months in duration every 3.7 years.
+| 2022 | 30,000,000 | 2030 | 12,385,669 |	2038 | 6,725,309 | 2046 | 4615470 |
+| 2023 | 30,000,000 | 2031 | 11,203,886 | 2039 | 6,359,183 | 2047 | 4451648 |
+| 2024 | 30,000,000 | 2032 | 10,237,623 | 2040 | 6,041,634 | 2048 | 4278466 |
+| 2025 | 26,242,797 | 2033 | 9,426,358  | 2041 | 5,742,026 | 2049 | 4125965 |
+| 2026 | 21,420,216 | 2034 | 8,728,890  | 2042 | 5,468,322 | 2050 | 3982176 |
+| 2027 | 18,117,091 | 2035 | 8,109,744  | 2043 | 5,238,563 |	     |         |
+| 2028 | 15,688,375 | 2036 | 7,592,008  | 2044	| 5,009,909 |      |         |
+| 2029 | 13,855,997 | 2037 | 7,127,151  | 2045 | 4,806,430 |      |         |		
 
 
-7. Fitting hazard distributions 
+### 6. Prepandemic research by McKinsey found that, on average, companies experience a disruption of one to two months in duration every 3.7 years.
+
+### 7. Fitting hazard distributions 
 Rono, A., Ogutu, C. and Weke, P. (2020) “On compound distributions for natural disaster modelling in Kenya,” International Journal of Mathematics and Mathematical Sciences, 2020, pp. 1–8. Available at: https://doi.org/10.1155/2020/9398309. 
 
-The following methodology was applied to fit severity distributions to the hazard data
-• Data was analysed at a region and aggregate level
-&nbsp;&nbsp;&nbsp;&nbsp;o At an aggregate level, region-spanning events were collapsed into one single event, to maintain independence of natural hazards assumption
-• A combination of scale/shape parameter stability, a mean excess plot and a Gerstengarbe plot was used to determine optimal thresholds for fitting a General Pareto Distribution
-&nbsp;&nbsp;&nbsp;&nbsp;o This was similar to the methodology employed by Rono et. Al in On Compound Distributions for Natural Disaster Modelling in Kenya (hindawi.com)
-• After optimal thresh-holds were determined for the middle and upper hazards, General Pareto distributions were fit on the top three thresholds (extreme, upper and middle), while a Weibull distribution was used to fit to the lower distribution
+The following methodology was applied to fit severity distributions to the hazard data: <br />
+  * Data was analysed at a region and aggregate level
+    * At an aggregate level, region-spanning events were collapsed into one single event, to maintain independence of natural hazards assumption.
+  * A combination of scale/shape parameter stability, a mean excess plot and a Gerstengarbe plot was used to determine optimal thresholds for fitting a General Pareto Distribution
+    * This was similar to the methodology employed by Rono et. Al 2020.
+  * After optimal thresh-holds were determined for the middle and upper hazards, General Pareto distributions were fit on the top three thresholds (extreme, upper and middle), while a Weibull distribution was used to fit to the lower distribution<br />
 
 
