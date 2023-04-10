@@ -122,10 +122,10 @@ The figure below shows the expected annual rebate values annually.
 
 ### Economic capital requirements
 
-![image](https://github.com/Actuarial-Control-Cycle-Part-A-2023-T1/group-github-pages-the-thunderbolts/blob/main/Eco_requirement_1.png)
-![image](https://github.com/Actuarial-Control-Cycle-Part-A-2023-T1/group-github-pages-the-thunderbolts/blob/main/Eco_requirement_2.png)
+![image](https://user-images.githubusercontent.com/86914259/230896558-c97dfc3b-65f2-4220-812a-83305014c129.png)
+![image](https://user-images.githubusercontent.com/86914259/230896593-b069d3a4-fa94-4fea-88c8-af4b76f240bf.png)
   
-As seen in the chart above, we have projections about the economic cost, leading to a recommended amount of capital required for these rebate programs. 
+As seen in the charts above, we have projections about the economic cost, leading to a recommended amount of capital required for these rebate programs. 
 However, we recommend that the program undergoes regular monitoring to update these forecasts for economic capital required to react to changing experience in both population movements and weather activity.
  
 ## Assumptions
