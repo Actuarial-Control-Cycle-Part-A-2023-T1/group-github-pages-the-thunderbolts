@@ -114,74 +114,62 @@ As seen in the chart above, we have projections about the economic cost, leading
 However, we recommend that the program undergoes regular monitoring to update these forecasts for economic capital required to react to changing experience in both population movements and weather activity.
  
 ## Assumptions
-The following areas have been projected using key assumptions:
-Population	•	Assuming a population growth of 0.5% annually similar to the Netherlands.
-•	Assuming that following our program, the proportion of the population in each region will follow a distribution so that property damage is equalised in each region.
-•	The population growth in each region is logarithmic. This accounts for natural population growth (births/deaths) but also the influx of people from the voluntary relocation programs.
-Relocation
-	•	Our relocation rebate will rebate the most substancial amount of funds to regions 1, 2 & 3, where we assume some proportions related to relocation from other regions. This is elaborated on in the Appendix.
-•	We assume that 4% of population growth in the regions 1, 2 & 3 are due to proactive relocation from weather catastrophes.
-GDP
-	•	Storylsia’s economy size is most comparable to Netherland’s1 in terms of its GDP and population. Hence, we found it appropriate to assume Netherland’s average annual GDP growth rate of 2.2% to Storylsia.
-Inflation
-	•	Considering the cyclical nature of economy, we found it appropriate to use stochastic modelling and simulated 100 inflation rate scenarios
-o	Random walk model2 was used to capture the progressive ups and downs of an inflation rate cycle with a volatility of 1%
-•	At any year, the inflation rate had a lower threshold of 0% and and upper threshold of 12% (Storylsia’s highest inflation rate was 11.88%)
-o	If the random walk reached below 0%, it was negated
-o	If the random walk reached above 12%, the following year’s inflation rate was reduced by a substantial 20% considering monetary policies are implemented in a high inflations. 
-•	Further methodology details in code ‘Economic Forecast’.
-Interest Rate	•	Cash rates and risk-free rates hold an intrinsic relationship with the inflation rate, where they display a “catch-up” phenomenon with each other in positive correlation3. 
-•	Cash rate was modelled by a base rate of an average 1.8% premium on top of the inflation rate and deviations using a uniform distribution between –1% and 1%. The 1 year and 10 year risk-free rates were modelled similarly by calculating the average premium on the cash rate and capturing deviations with a uniform distribution.
-•	Further methodology details in code ‘Economic Forecast’.
-Hazard Severity	•	The severity of hazards was grouped into four groups (low, medium, high and extreme) and parametric distributions were fit to model the severity and frequency of hazards
-•	Hence the aggregate distribution for each of the four groups of hazard was assumed to follow a compound distribution
-•	Further details around the parameter estimates, distributions used and goodness of fit can be found in the appendix
- 
+The following areas have been projected using key assumptions:]
+| Variable | Assumptions |
+| -------- | ----------- |
+| Population | • Assuming a population growth of 0.5% annually similar to the Netherlands. <br /> • Assuming that following our program, the proportion of the population in each region will follow a distribution so that property damage is equalised in each region. <br /> • The population growth in each region is logarithmic. This accounts for natural population growth (births/deaths) but also the influx of people from the voluntary relocation programs.|
+| Relocation | • Our relocation rebate will rebate the most substancial amount of funds to regions 1, 2 & 3, where we assume some proportions related to relocation from other regions. This is elaborated on in the Appendix. <br /> • We assume that 4% of population growth in the regions 1, 2 & 3 are due to proactive relocation from weather catastrophes.|
+| GDP | • Storylsia’s economy size is most comparable to Netherland’s in terms of its GDP and population. Hence, we found it appropriate to assume Netherland’s average annual GDP growth rate of 2.2% to Storylsia.|
+| Inflation |• Considering the cyclical nature of economy, we found it appropriate to use stochastic modelling and simulated 100 inflation rate scenarios:<br /> &nbsp;&nbsp;&nbsp;&nbsp;o Random walk models were used to capture the progressive ups and downs of an inflation rate cycle with a volatility of 1% <br />• At any year, the inflation rate had a lower threshold of 0% and and upper threshold of 12% (Storylsia’s highest inflation rate was 11.88%)<br />&nbsp;&nbsp;&nbsp;&nbsp;o If the random walk reached below 0%, it was negated <br />&nbsp;&nbsp;&nbsp;&nbsp;o If the random walk reached above 12%, the following year’s inflation rate was reduced by a substantial 20% considering monetary policies are implemented in a high inflations. <br />• Further methodology details in code ‘Economic Forecast’.|
+| Interest Rate | • Cash rates and risk-free rates hold an intrinsic relationship with the inflation rate, where they display a “catch-up” phenomenon with each other in positive correlation. <br /> •	Cash rate was modelled by a base rate of an average 1.8% premium on top of the inflation rate and deviations using a uniform distribution between –1% and 1%. The 1 year and 10 year risk-free rates were modelled similarly by calculating the average premium on the cash rate and capturing deviations with a uniform distribution. <br /> •	Further methodology details in code ‘Economic Forecast’.|
+| Hazard Severity |• The severity of hazards was grouped into four groups (low, medium, high and extreme) and parametric distributions were fit to model the severity and frequency of hazards <br /> •	Hence the aggregate distribution for each of the four groups of hazard was assumed to follow a compound distribution. <br /> • Further details around the parameter estimates, distributions used and goodness of fit can be found in the appendix.|
+
 ## Risk and Risk Mitigation Consideration
 The following outlines key potential risks to the proposed relocation program and suggestions for corresponding mitigation techniques. 
-1. Supply Chain Stress
-Risk	Likelihood	Mitigation
-Highly concentrated time period of high frequency natural hazard (aka “freak accident”) may cause sudden financial stress and shortage of immediate support supply
-	The hazard distribution parametrise the likelihood of one of more “freak” accidents as 1.2% in any given year. 	Maintain a safe level of 5% surplus emergency reserve supply in any given year
-Logistical supply chain issues (such as geopolitical tensions or international trades war) that may delay the process of relocation construction or delay supply for involuntary aid	The likelihood of experiencing a supply chain disruption in any given year is 27%6. 	Prioritise domestic supply chains over international to prevent major lag in supply chain in event of global crisis. Otherwise, ensure domestic channels are available to reach in case of emergency.
-2. Participation Rate
-Risk	Likelihood	Mitigation
-Under-participation of program due to reluctance of relocation and perceived lack of incentives poses risk
-	N/A
-Will need to measure market participation size after initiating campaign	Utilise unused budget for marketing purposes in order to attract more participants
-Higher than expected participation rate with unprepared budget
-	N/A
-Will need to measure market participation size after initiating campaign	
+### 1. Supply Chain Stress
+
+| Risk | Likelihood | Mitigation |
+| ---- | ---------- | ---------- |
+| Highly concentrated time period of high frequency natural hazard (aka “freak accident”) may cause sudden financial stress and shortage of immediate support supply | The hazard distribution parametrise the likelihood of one of more “freak” accidents as 1.2% in any given year. | Maintain a safe level of 5% surplus emergency reserve supply in any given year |
+|Logistical supply chain issues (such as geopolitical tensions or international trades war) that may delay the process of relocation construction or delay supply for involuntary aid | The likelihood of experiencing a supply chain disruption in any given year is 27%. | Prioritise domestic supply chains over international to prevent major lag in supply chain in event of global crisis. Otherwise, ensure domestic channels are available to reach in case of emergency.|
+
+### 2. Participation Rate
+
+| Risk | Likelihood | Mitigation |
+| ---- | ---------- | ---------- |
+| Under-participation of program due to reluctance of relocation and perceived lack of incentives poses risk |
+Will need to measure market participation size after initiating campaign |Utilise unused budget for marketing purposes in order to attract more participants |
+| Higher than expected participation rate with unprepared budget | Will need to measure market participation size after initiating campaign. | Impose an annual threshold limit on claim counts to allow distributed rebates |
+
 Other risks identified are political and regulatory changes, cybersecurity threats, and prolonged economic depression periods.
  
 
-
-
-
-
-
-
 ## Data & Data Limitations
-Data sources used:
-•	Historical Storylsia Data
+Data sources used: Historical Storylsia Data
+
 ### Hazard data
 Our extreme hazard event distribution only had 5 datapoints over 60 years, using the data from Storslysia’s hazard events. Hence our estimates of extreme hazard events are highly sensitive to the distribution of extreme hazard events. An assumption has been made about the distribution following a General Pareto Distribution, however it is likely that these estimates will change when another extreme hazard event occurs (both in frequency and severity)
+
 ### Missing values in economic data
 For any economic data that was found to be incomplete or wrongly entered, data was re-entered as an average of the previous and next years’ data for completeness. 
 The impact of this data limitation is very restricted because it affects less than 0.5% of the data set and the linearity assumption corresponds to the underlying economic view that it is highly unlikely to experience an abnormal change in a single year. 
+
 ### Limitation about geography of Storslysia and areas affected by Storslysia
 The hazard data provided limited information about the specific areas affected by natural hazard events. While we could draw inferences about the areas in which certain hazard events occurred, we could not determine which areas within a region were more risk prone and which areas were less risk prone.
+
 A large part of our strategy is to encourage individuals to move individuals from high risk areas to low risk areas and ultimately ‘spread’ the risk of individuals suffering losses due extreme weather related. However, we assume that hazards affect a region on average the same overall, whereas this is not necessarily the case.
 Additional information about the geography of areas affected by extreme climate events would help assist in designing a relocation strategy that effectively ‘spreads’ the risk of weather-related hazard damage, by identifying areas of low and high risk.
+
 ### Limited information about distribution of housing in Storslysia
 Our estimates for property damage were assuming that damages due to extreme climate events were spread across a region proportionate to the number of houses in the region. 
+
 However, this may not be the case, as mentioned above regarding the geography and location that extreme weather events take place. More granular information about the distribution of houses at a city or suburb level would allow us to make more precise estimations of the property damage in regions, and the expected economic damage.
  
 ## Conclusion
 We have created the following programs to aid Storlysia manage their exposure to severe weather catastrophes. 
 ### Voluntary Relocation Program
 Coverages
--	Mortgage deposit rebates
+- 	Mortgage deposit rebates
 -	Construction cost rebates
 Key Features
 -	30 million cap on rebates in the first 3 years
@@ -202,11 +190,13 @@ Furthermore, our involuntary relocation program will provide financial rebates t
  
 ## Appendix
 1 Netherlands and Storylsia economy size comparison
-	Netherlands	Storylsia
-GDP, 2021
-(US$ mil)	1,01,007 	981,786 
-Census, 2021	17,533,044 (2023)	18,379,116 (2021)
+|     | Netherlands | Storylsia |
+| --- | ----------- | --------- |
+|GDP, 2021 <br \> (US$ mil) | 1,01,007 | 981,786 |
+| Census Population | 17,533,044 (2023) | 18,379,116 (2021) |
+
 Source: World Bank, Historical Storylsia Data
+
 2 Random Walk Model and Economic Forecasts
 RBA published results and performance of using a random walk model to forecast time-series inflation and interest rates.
 https://www.rba.gov.au/publications/rdp/2003/2003-12/results.html
@@ -214,34 +204,38 @@ https://www.rba.gov.au/publications/rdp/1989/8906/inflation-and-interest-rates.h
 
 3 Historic Storylsia’s Inflation and interest rate correlation matrix
  
+![image](https://user-images.githubusercontent.com/86914259/230845421-6a79975f-dd5d-4328-a71e-92613458ef14.png)
 
- 
+![image](https://user-images.githubusercontent.com/86914259/230845444-25197cf6-08c5-4088-9ebb-645fa299b2fa.png)
+
 
 4 Predicting population relocation in Storlysia.
 Population relocation projections were done in the sheet Population_Estimates.xlsx.
 A logarithmic curve with adjustments was used to predict year by year population, with the objective population per region calculated as per Stable Region Population.
+
 5. Total Annual Rebate for Voluntary Relocation Program by Year
-Year	Rebate	Year	Rebate	Year	Rebate	Year	Rebate
-2022	30000000	2030	12385669.2	2038	6725308.616	2046	4615470.184
-2023	30000000	2031	11203885.72	2039	6359182.595	2047	4451648.204
-2024	30000000	2032	10237622.95	2040	6041633.923	2048	4278465.613
-2025	26242797.34	2033	9426357.537	2041	5742026.498	2049	4125964.89
-2026	21420216.22	2034	8728889.627	2042	5468322.467	2050	3982176.008
-2027	18117091.66	2035	8109744.154	2043	5238563.198		
-2028	15688375.18	2036	7592008.11	2044	5009909.416		
-2029	13855997.77	2037	7127150.538	2045	4806429.866		
+| Year | Rebate | Year | Rebate | Year | Rebate | Year | Rebate |
+| ---- | ------ | ---- | ------ | ---- | ------ | ---- | ------ |
+| 2022 | 30000000 | 2030 | 12385669.2 |	2038 | 6725308.616 | 2046 | 4615470.184 |
+| 2023 | 30000000 | 2031 | 11203885.72 | 2039 | 6359182.595 | 2047 | 4451648.204 |
+| 2024 | 30000000 | 2032 | 10237622.95 | 2040 | 6041633.923 | 2048 | 4278465.613 |
+| 2025 | 26242797.34 | 2033 | 9426357.537 | 2041 | 5742026.498 | 2049 | 4125964.89 |
+| 2026 | 21420216.22 | 2034 | 8728889.627 | 2042 | 5468322.467 | 2050 | 3982176.008 |
+| 2027 | 18117091.66 | 2035 | 8109744.154 | 2043 | 5238563.198 |		
+| 2028 | 15688375.18 | 2036 | 7592008.11 | 2044	 |5009909.416 |		
+| 2029 | 13855997.77 | 2037 | 7127150.538 | 2045 | 4806429.866 |		
 
 6. Prepandemic research by McKinsey found that, on average, companies experience a disruption of one to two months in duration every 3.7 years.
 
 
- 
 7. Fitting hazard distributions 
-On Compound Distributions for Natural Disaster Modelling in Kenya (hindawi.com)
+Rono, A., Ogutu, C. and Weke, P. (2020) “On compound distributions for natural disaster modelling in Kenya,” International Journal of Mathematics and Mathematical Sciences, 2020, pp. 1–8. Available at: https://doi.org/10.1155/2020/9398309. 
+
 The following methodology was applied to fit severity distributions to the hazard data
-•	Data was analysed at a region and aggregate level
-o	At an aggregate level, region-spanning events were collapsed into one single event, to maintain independence of natural hazards assumption
-•	A combination of scale/shape parameter stability, a mean excess plot and a Gerstengarbe plot was used to determine optimal thresholds for fitting a General Pareto Distribution
-o	This was similar to the methodology employed by Rono et. Al in On Compound Distributions for Natural Disaster Modelling in Kenya (hindawi.com)
-•	After optimal thresh-holds were determined for the middle and upper hazards, General Pareto distributions were fit on the top three thresholds (extreme, upper and middle), while a Weibull distribution was used to fit to the lower distribution
+• Data was analysed at a region and aggregate level
+&nbsp;&nbsp;&nbsp;&nbsp;o At an aggregate level, region-spanning events were collapsed into one single event, to maintain independence of natural hazards assumption
+• A combination of scale/shape parameter stability, a mean excess plot and a Gerstengarbe plot was used to determine optimal thresholds for fitting a General Pareto Distribution
+&nbsp;&nbsp;&nbsp;&nbsp;o This was similar to the methodology employed by Rono et. Al in On Compound Distributions for Natural Disaster Modelling in Kenya (hindawi.com)
+• After optimal thresh-holds were determined for the middle and upper hazards, General Pareto distributions were fit on the top three thresholds (extreme, upper and middle), while a Weibull distribution was used to fit to the lower distribution
 
 
