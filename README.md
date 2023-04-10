@@ -21,20 +21,21 @@ Samuel Soo
 Storlysia has found itself impacted by severe weather catastrophes resulting in emergency relocation of its citizens. In order to reduce the negative impact on Storlysia’s economy and provide social/financial aid to its citizens, we propose the following relocation program.
 The main objectives of the Storlysia Social Relocation Insurance Program are as follows:
 1. Create a program, the Proactive Relocation Program, to incentivise individuals/households to relocate to a region that is less exposed to climate catastrophe risks. This voluntary program will cover:
-•	Relocation Rebate
+-	Relocation Rebate
 2. Create a program, the Involuntary Relocation Program, to support individuals/households that are impacted by a climate catastrophe. This involuntary program will cover:
-•	Short-term Accommodation
-•	Medical Aid & Psychological Counselling
-•	Permanent Relocation
+-	Short-term Accommodation
+-	Medical Aid & Psychological Counselling
+-	Permanent Relocation
 3.Reduce the long term impact of climate catastrophes on Storlysia’s economy and the financial and social wellbeing of Storlysia’s citizens.
 ### Monitored Reporting
 The key metrics to be used in judging the progress of objectives is shown below.
-Metric	Rationale	Timeframe
-Property damage in each region	Property damage should be decreasing, as our programs aim to encourage property construction in lower risk regions. 	Evaluated annually
-Population in each region	Population in regions 1, 2 & 3 should increase, while population in regions 4, 5 & 6 should decrease, 	Evaluated annually
-GDP lost to climate catastrophes	The GDP lost to climate catastrophes should decrease as less citizens are affected by issues such as medical aid and lost income due to climate events.	Evaluated annually
-Claim count	The number of claims lodged by the citizens of Storlysia, representing engagement with the insurance scheme.	Evaluated monthly
-Total claim amount	The total amount paid out in claims from the program, which should be inline with expectations and be comparable to damages without the insurance program.	Evaluated monthly
+| Metric | Rationale | Timeframe |
+| ------ | --------- | --------- |
+| Property damage in each region | Property damage should be decreasing, as our programs aim to encourage property construction in lower risk regions. | Evaluated annually |
+| Population in each region | Population in regions 1, 2 & 3 should increase, while population in regions 4, 5 & 6 should decrease. | Evaluated annually |
+| GDP lost to climate catastrophes | The GDP lost to climate catastrophes should decrease as less citizens are affected by issues such as medical aid and lost income due to climate events. | Evaluated annually |
+| Claim count | The number of claims lodged by the citizens of Storlysia, representing engagement with the insurance scheme. | Evaluated monthly |
+| Total claim amount | The total amount paid out in claims from the program, which should be inline with expectations and be comparable to damages without the insurance program. | Evaluated monthly |
  
 ## Program Design
 ### Proactive Relocation Program
@@ -46,9 +47,10 @@ Our data analysis shows that while region 2 & 5 have historically seen the large
 -	Rebate for mortgage deposits for claimants that have relocated to a less risky region, proportional to the decrease in risk in new location.
 -	Rebate for constructions costs for claims that are building new homes in a less risky region.
 #### Requirements:
-Requirement	Rationale
-Claimant must have relocated to an area of proportionally lower climate catastrophe risk.	This program aims to increase the percentage of population living in less risky regions, and therefore will only provide a rebate when moving to a less risky area.
-Claimant must have relocated in the prior 6 months to the claim. 	Prevents unexpected long-term costs from a large relocation surge.  
+| Requirement | Rationale |
+| ----------- | --------- |
+| Claimant must have relocated to an area of proportionally lower climate catastrophe risk. | This program aims to increase the percentage of population living in less risky regions, and therefore will only provide a rebate when moving to a less risky area. |
+| Claimant must have relocated in the prior 6 months to the claim.  | Prevents unexpected long-term costs from a large relocation surge. |
 #### Key Features:
 -	Pricing of the rebate offered to claimants is based off a region matrix factor, which captures the relative riskiness of regions compared to each other.
 -	Total rebate offered in the first 3 years is capped at 30 million. This is done to even out the distribution of rebates offered in the early years.
@@ -59,9 +61,10 @@ Evaluation will be done with regard to several metrics. The short-term period fo
 
 
 
-Metric	Guideline
-Population Proportion	The percentage of the population in each region will be measured annually. In the short-term (10 years), there 
-Total Property Damage	The property damage in each region will be evaluated to make sure that model predictions in the short term (10 years) is generally accurate.
+| Metric | Guideline |
+| ------ | --------- |
+| Population Proportion | The percentage of the population in each region will be measured annually. In the short-term (10 years). |
+| Total Property Damage | The property damage in each region will be evaluated to make sure that model predictions in the short term (10 years) is generally accurate. |
 
 ### Involuntary Relocation Program
 #### Aim: 
@@ -72,9 +75,10 @@ To provide social and financial aid to individuals/households that have been aff
 -	Medical Services
 -	Food
 #### Requirements:
-Requirement	Rationale
-Claimant must have suffered a financial loss due to a severe weather catastrophe, in the form of property and home contents damage.	Financial aid to victims of a severe weather catastrophe helps them recover faster and be financially able to recover after a severe weather catastrophe.
-Claimant must have suffered a financial loss due to a severe weather catastrophe in the past 6 months	Prevents unexpected long-term costs to a large relocation surge.  
+| Requirement | Rationale |
+| ----------- | --------- |
+| Claimant must have suffered a financial loss due to a severe weather catastrophe, in the form of property and home contents damage. | Financial aid to victims of a severe weather catastrophe helps them recover faster and be financially able to recover after a severe weather catastrophe. |
+| Claimant must have suffered a financial loss due to a severe weather catastrophe in the past 6 months. | Prevents unexpected long-term costs to a large relocation surge. |  
 
 #### Key Features:
 -	This program aims to provide support soon after a severe weather disaster in order to help citizens recover financially and socially. 
@@ -87,22 +91,24 @@ The graphs above show the costs with and without the involuntary and voluntary r
 ### Voluntary relocation rebate
 #### Region Relativity Matrix
 The region relativity matrix is a core pricing factor for relocation rebates. It is calculated as follows:
-•	The frequency and severity of weather catastrophes in each region was fitted.
-•	The models were used to predict the frequency and severity of weather catastrophes in each region from 2020 to 2100.
-•	The property damage values for each region were scaled by the total property value in each region, to achieve a total damage per dollar of property value figure.
-•	A 6x6 matrix was constructed with the property value in each region being divided over the property value in 6 different regions, resulting in a 6x6 matrix of relative property damage values. 
-•	The figures had 1 subtracted then scaled by the highest value in the matrix, with negative values being removed.
-•	This results in a matrix representing the rebate factor a citizen gets from moving from an old region to a new region (if the new region is comparatively less risky, they receive a higher rebate multiplier).
+- 	The frequency and severity of weather catastrophes in each region was fitted.
+-	The models were used to predict the frequency and severity of weather catastrophes in each region from 2020 to 2100.
+-	The property damage values for each region were scaled by the total property value in each region, to achieve a total damage per dollar of property value figure.
+-	A 6x6 matrix was constructed with the property value in each region being divided over the property value in 6 different regions, resulting in a 6x6 matrix of relative property damage values. 
+-	The figures had 1 subtracted then scaled by the highest value in the matrix, with negative values being removed.
+-	This results in a matrix representing the rebate factor a citizen gets from moving from an old region to a new region (if the new region is comparatively less risky, they receive a higher rebate multiplier).
 #### Stable Region Proportions
 In order to calculate the ideal proportion of the population in each region, we will attempt to equalise total property damage among regions. This is done by taking the scaled property damage mentioned above, and finding the relative proportions for all regions. Then the reciprocal is taken, and the scaled proportions found again. We are left with the following ideal proportions for each region.
-Region1	Region 2	Region 3	Region 4	Region 5	Region 6
-40.03%	22.80%	26.83%	3.78%	5.19%	1.37%
+| Region 1 | Region 2 | Region 3 | Region 4 | Region 5 | Region 6 |
+| -------- | -------- | -------- | -------- | -------- | -------- |  
+| 40.03% | 22.80% | 26.83% | 3.78% | 5.19% | 1.37% |
 
 #### Total Rebate Costs – Proactive Relocation Program
 In order to estimate total rebate costs for the proactive relocation program, we are required to estimate the number of people relocating from one region to another. This is done by assuming we will meet our goal in 2050. Then a linear interpolation from the current region proportions is done to the new region proportions in 2050 (accounting for population growth), giving us an estimated proportion of the population in each region.
-Region	Region1	Region 2	Region 3	Region 4	Region 5	Region 6
-Old Population (2020)	6,406,008	4,386,948	5,019,684	995,544	1,257,096	313,836
-Theoretical Population (2050)	8500000	5000000	5700000	800000	1100000	300000
+| Region | Region 1 | Region 2 | Region 3 | Region 4 | Region 5 | Region 6 |
+| ------ | -------- | -------- | -------- | -------- | -------- | -------- |  
+| Old Population (2020) | 6,406,008 | 4,386,948 | 5,019,684 | 995,544 | 1,257,096 | 313,836 |
+| Theoretical Population (2050) | 8500000 | 5000000 | 5700000 | 800000 | 1100000 | 300000 |
 
 The population estimates in between were used to estimate the number of people relocating due to weather catastrophes (assumed to be 4% of total mobility).
 The figure below shows the expected annual rebate values annually.
@@ -137,7 +143,8 @@ The following outlines key potential risks to the proposed relocation program an
 
 | Risk | Likelihood | Mitigation |
 | ---- | ---------- | ---------- |
-| Under-participation of program due to reluctance of relocation and perceived lack of incentives poses risk | Will need to measure market participation size after initiating campaign |Utilise unused budget for marketing purposes in order to attract more participants |
+| Under-participation of program due to reluctance of relocation and perceived lack of incentives poses risk |
+Will need to measure market participation size after initiating campaign |Utilise unused budget for marketing purposes in order to attract more participants |
 | Higher than expected participation rate with unprepared budget | Will need to measure market participation size after initiating campaign. | Impose an annual threshold limit on claim counts to allow distributed rebates |
 
 Other risks identified are political and regulatory changes, cybersecurity threats, and prolonged economic depression periods.
@@ -188,54 +195,53 @@ Furthermore, our involuntary relocation program will provide financial rebates t
 
  
 ## Appendix
-### 1.  Netherlands and Storylsia economy size comparison
+1 Netherlands and Storylsia economy size comparison
 |     | Netherlands | Storylsia |
 | --- | ----------- | --------- |
-|GDP, 2021 <br /> (US$ mil) | 1,01,007 | 981,786 |
+|GDP, 2021 <br \> (US$ mil) | 1,01,007 | 981,786 |
 | Census Population | 17,533,044 (2023) | 18,379,116 (2021) |
 
 Source: World Bank, Historical Storylsia Data
 
-### 2. Random Walk Model and Economic Forecasts
+2 Random Walk Model and Economic Forecasts
 RBA published results and performance of using a random walk model to forecast time-series inflation and interest rates.
 https://www.rba.gov.au/publications/rdp/2003/2003-12/results.html
 https://www.rba.gov.au/publications/rdp/1989/8906/inflation-and-interest-rates.html
 
-### 3. Historic Storylsia’s Inflation and interest rate correlation matrix
+3 Historic Storylsia’s Inflation and interest rate correlation matrix
  
 ![image](https://user-images.githubusercontent.com/86914259/230845421-6a79975f-dd5d-4328-a71e-92613458ef14.png)
 
 ![image](https://user-images.githubusercontent.com/86914259/230845444-25197cf6-08c5-4088-9ebb-645fa299b2fa.png)
 
 
-### 4. Predicting population relocation in Storlysia.
+4 Predicting population relocation in Storlysia.
 Population relocation projections were done in the sheet Population_Estimates.xlsx.
 A logarithmic curve with adjustments was used to predict year by year population, with the objective population per region calculated as per Stable Region Population.
 
-### 5. Total Annual Rebate for Voluntary Relocation Program by Year
-
+5. Total Annual Rebate for Voluntary Relocation Program by Year
 | Year | Rebate | Year | Rebate | Year | Rebate | Year | Rebate |
 | ---- | ------ | ---- | ------ | ---- | ------ | ---- | ------ |
-| 2022 | 30,000,000 | 2030 | 12,385,669 |	2038 | 6,725,309 | 2046 | 4615470 |
-| 2023 | 30,000,000 | 2031 | 11,203,886 | 2039 | 6,359,183 | 2047 | 4451648 |
-| 2024 | 30,000,000 | 2032 | 10,237,623 | 2040 | 6,041,634 | 2048 | 4278466 |
-| 2025 | 26,242,797 | 2033 | 9,426,358  | 2041 | 5,742,026 | 2049 | 4125965 |
-| 2026 | 21,420,216 | 2034 | 8,728,890  | 2042 | 5,468,322 | 2050 | 3982176 |
-| 2027 | 18,117,091 | 2035 | 8,109,744  | 2043 | 5,238,563 |	     |         |
-| 2028 | 15,688,375 | 2036 | 7,592,008  | 2044	| 5,009,909 |      |         |
-| 2029 | 13,855,997 | 2037 | 7,127,151  | 2045 | 4,806,430 |      |         |		
+| 2022 | 30000000 | 2030 | 12385669.2 |	2038 | 6725308.616 | 2046 | 4615470.184 |
+| 2023 | 30000000 | 2031 | 11203885.72 | 2039 | 6359182.595 | 2047 | 4451648.204 |
+| 2024 | 30000000 | 2032 | 10237622.95 | 2040 | 6041633.923 | 2048 | 4278465.613 |
+| 2025 | 26242797.34 | 2033 | 9426357.537 | 2041 | 5742026.498 | 2049 | 4125964.89 |
+| 2026 | 21420216.22 | 2034 | 8728889.627 | 2042 | 5468322.467 | 2050 | 3982176.008 |
+| 2027 | 18117091.66 | 2035 | 8109744.154 | 2043 | 5238563.198 |		
+| 2028 | 15688375.18 | 2036 | 7592008.11 | 2044	 |5009909.416 |		
+| 2029 | 13855997.77 | 2037 | 7127150.538 | 2045 | 4806429.866 |		
+
+6. Prepandemic research by McKinsey found that, on average, companies experience a disruption of one to two months in duration every 3.7 years.
 
 
-### 6. Prepandemic research by McKinsey found that, on average, companies experience a disruption of one to two months in duration every 3.7 years.
-
-### 7. Fitting hazard distributions 
+7. Fitting hazard distributions 
 Rono, A., Ogutu, C. and Weke, P. (2020) “On compound distributions for natural disaster modelling in Kenya,” International Journal of Mathematics and Mathematical Sciences, 2020, pp. 1–8. Available at: https://doi.org/10.1155/2020/9398309. 
 
-The following methodology was applied to fit severity distributions to the hazard data: <br />
-  * Data was analysed at a region and aggregate level
-    * At an aggregate level, region-spanning events were collapsed into one single event, to maintain independence of natural hazards assumption.
-  * A combination of scale/shape parameter stability, a mean excess plot and a Gerstengarbe plot was used to determine optimal thresholds for fitting a General Pareto Distribution
-    * This was similar to the methodology employed by Rono et. Al 2020.
-  * After optimal thresh-holds were determined for the middle and upper hazards, General Pareto distributions were fit on the top three thresholds (extreme, upper and middle), while a Weibull distribution was used to fit to the lower distribution<br />
+The following methodology was applied to fit severity distributions to the hazard data
+• Data was analysed at a region and aggregate level
+&nbsp;&nbsp;&nbsp;&nbsp;o At an aggregate level, region-spanning events were collapsed into one single event, to maintain independence of natural hazards assumption
+• A combination of scale/shape parameter stability, a mean excess plot and a Gerstengarbe plot was used to determine optimal thresholds for fitting a General Pareto Distribution
+&nbsp;&nbsp;&nbsp;&nbsp;o This was similar to the methodology employed by Rono et. Al in On Compound Distributions for Natural Disaster Modelling in Kenya (hindawi.com)
+• After optimal thresh-holds were determined for the middle and upper hazards, General Pareto distributions were fit on the top three thresholds (extreme, upper and middle), while a Weibull distribution was used to fit to the lower distribution
 
 
