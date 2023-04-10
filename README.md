@@ -240,4 +240,68 @@ The following methodology was applied to fit severity distributions to the hazar
 &nbsp;&nbsp;&nbsp;&nbsp;o This was similar to the methodology employed by Rono et. Al 2020 <br />
 • After optimal thresh-holds were determined for the middle and upper hazards, General Pareto distributions were fit on the top three thresholds (extreme, upper and middle), while a Weibull distribution was used to fit to the lower distribution
 
+### Extreme hazard event parameters
+| Scale | Shape |
+| ----- | ----- |
+|135074.68 | -0.26 |
+
+### Upper hazard event parameters
+| Region | Scale | Shape |
+| ------ | ----- | ----- |
+| 1 | 71197.09 | 0.04 |
+| 2	| 82505.40 | -0.10 |
+| 3 | 135074.68 | -0.26 |
+
+### Middle hazard event parameters
+| Region | Scale | Shape |
+| ------ | ----- | ----- |
+| 1 | 3957.05 |	0.19 |
+| 2	| 5815.95 |	0.16 |
+| 3	| 5583.82 |	0.04 |
+| 4	| 3476.92 |	0.11 |
+| 5	| 3704.67 |	0.39 |
+| 6	| 5138.30 |	0.09 |
+
+### Lower hazard event parameters
+| Region | Shape | Scale |
+| ------ | ----- | ----- |
+| 1 | 0.66 | 105.66 |
+| 2 | 0.67 | 104.95 |
+| 3 |	0.62 | 79.64 |
+| 4	| 0.67 | 84.81 |
+| 5	| 0.66 | 88.22 |
+| 6	| 0.65 | 83.14 |
+
+### Extreme frequency
+| Region | Lambda |
+| ------ | ------ |
+| All |	0.08 |
+
+### Upper frequency
+| Region | Lambda |
+| ------ | ------ |
+| 1	| 0.11 |
+| 2 |	0.18 |
+| 3	| 0.05 |
+
+### Middle frequency
+| Region | Size |	Mu |
+| ------ | ---- | -- |
+| 1	| 1.73 | 0.84 |
+| 2	| 0.88 | 1.00 |
+| 3 | 0.26 | 0.79 |
+| 4 | 1.08 | 0.39 |
+| 5	| 0.66 | 0.33 |
+| 6	| 0.68 | 0.23 |
+
+### Lower frequency
+| Region | Size |	Mu |
+| ------ | ---- | -- |
+| 1	| 1.89 | 7.21 |
+| 2	| 1.08 | 9.66 |
+| 3	| 0.66 | 10.41|
+| 4 | 1.17 | 6.66 |
+| 5	| 1.07 | 5.51 |
+| 6	| 0.73 | 2.97 |
+
 
