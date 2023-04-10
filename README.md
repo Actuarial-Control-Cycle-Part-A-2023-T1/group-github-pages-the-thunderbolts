@@ -24,6 +24,7 @@ The main objectives of the Storlysia Social Relocation Insurance Program are as 
 3. Reduce the long term impact of climate catastrophes on Storlysia’s economy and the financial and social wellbeing of Storlysia’s citizens.
 ### Monitored Reporting
 The key metrics to be used in judging the progress of objectives is shown below.
+
 | Metric | Rationale | Timeframe |
 | ------ | --------- | --------- |
 | Property damage in each region | Property damage should be decreasing, as our programs aim to encourage property construction in lower risk regions. | Evaluated annually |
@@ -43,10 +44,12 @@ Our data analysis shows that while region 2 & 5 have historically seen the large
 -	Rebate for mortgage deposits for claimants that have relocated to a less risky region, proportional to the decrease in risk in new location.
 -	Rebate for constructions costs for claims that are building new homes in a less risky region.
 #### Requirements:
+
 | Requirement | Rationale |
 | ----------- | --------- |
 | Claimant must have relocated to an area of proportionally lower climate catastrophe risk. | This program aims to increase the percentage of population living in less risky regions, and therefore will only provide a rebate when moving to a less risky area. |
 | Claimant must have relocated in the prior 6 months to the claim.  | Prevents unexpected long-term costs from a large relocation surge. |
+
 #### Key Features:
 -	Pricing of the rebate offered to claimants is based off a region matrix factor, which captures the relative riskiness of regions compared to each other.
 -	Total rebate offered in the first 3 years is capped at 30 million. This is done to even out the distribution of rebates offered in the early years.
@@ -55,12 +58,10 @@ Ideally, we aim to have the majority of the population in regions that are less 
 #### Evaluation:
 Evaluation will be done with regard to several metrics. The short-term period for evaluation will be an annual evaluation on property damage and population proportion. The long-term period for evaluation will be in 2050, to achieve a final population proportion in each region, as well as have property damage under 5% of GDP.
 
-
-
 | Metric | Guideline |
 | ------ | --------- |
 | Population Proportion | The percentage of the population in each region will be measured annually. In the short-term (10 years). |
-| Total Property Damage | The property damage in each region will be evaluated to make sure that model predictions in the short term (10 years) is generally accurate. |
+| Total Property Damage | The property damage in each region will be evaluated to make sure that model predictions in the short term (10 years) is generally accurate.|
 
 ### Involuntary Relocation Program
 #### Aim: 
@@ -71,6 +72,7 @@ To provide social and financial aid to individuals/households that have been aff
 -	Medical Services
 -	Food
 #### Requirements:
+
 | Requirement | Rationale |
 | ----------- | --------- |
 | Claimant must have suffered a financial loss due to a severe weather catastrophe, in the form of property and home contents damage. | Financial aid to victims of a severe weather catastrophe helps them recover faster and be financially able to recover after a severe weather catastrophe. |
@@ -98,12 +100,14 @@ The region relativity matrix is a core pricing factor for relocation rebates. It
 -	This results in a matrix representing the rebate factor a citizen gets from moving from an old region to a new region (if the new region is comparatively less risky, they receive a higher rebate multiplier).
 #### Stable Region Proportions
 In order to calculate the ideal proportion of the population in each region, we will attempt to equalise total property damage among regions. This is done by taking the scaled property damage mentioned above, and finding the relative proportions for all regions. Then the reciprocal is taken, and the scaled proportions found again. We are left with the following ideal proportions for each region.
+
 | Region 1 | Region 2 | Region 3 | Region 4 | Region 5 | Region 6 |
 | -------- | -------- | -------- | -------- | -------- | -------- |  
 | 40.03% | 22.80% | 26.83% | 3.78% | 5.19% | 1.37% |
 
 #### Total Rebate Costs – Proactive Relocation Program
 In order to estimate total rebate costs for the proactive relocation program, we are required to estimate the number of people relocating from one region to another. This is done by assuming we will meet our goal in 2050. Then a linear interpolation from the current region proportions is done to the new region proportions in 2050 (accounting for population growth), giving us an estimated proportion of the population in each region.
+
 | Region | Region 1 | Region 2 | Region 3 | Region 4 | Region 5 | Region 6 |
 | ------ | -------- | -------- | -------- | -------- | -------- | -------- |  
 | Old Population (2020) | 6,406,008 | 4,386,948 | 5,019,684 | 995,544 | 1,257,096 | 313,836 |
@@ -125,7 +129,8 @@ As seen in the chart above, we have projections about the economic cost, leading
 However, we recommend that the program undergoes regular monitoring to update these forecasts for economic capital required to react to changing experience in both population movements and weather activity.
  
 ## Assumptions
-The following areas have been projected using key assumptions:]
+The following areas have been projected using key assumptions:
+
 | Variable | Assumptions |
 | -------- | ----------- |
 | Population | • Assuming a population growth of 0.5% annually similar to the Netherlands. <br /> • Assuming that following our program, the proportion of the population in each region will follow a distribution so that property damage is equalised in each region. <br /> • The population growth in each region is logarithmic. This accounts for natural population growth (births/deaths) but also the influx of people from the voluntary relocation programs.|
@@ -197,6 +202,7 @@ Furthermore, our involuntary relocation program will provide financial rebates t
  
 ## Appendix
 ### 1. Netherlands and Storylsia economy size comparison
+
 |     | Netherlands | Storylsia |
 | --- | ----------- | --------- |
 |GDP, 2021 <br /> (US$ mil) | 1,013,007 | 981,786 |
@@ -221,6 +227,7 @@ Population relocation projections were done in the sheet Population_Estimates.xl
 A logarithmic curve with adjustments was used to predict year by year population, with the objective population per region calculated as per Stable Region Population.
 
 ### 5. Total Annual Rebate for Voluntary Relocation Program by Year
+
 | Year | Rebate | Year | Rebate | Year | Rebate | Year | Rebate |
 | ---- | ------ | ---- | ------ | ---- | ------ | ---- | ------ |
 | 2022 | 30000000 | 2030 | 12385669 |	2038 | 6725309 | 2046 | 4615470 |
@@ -246,11 +253,13 @@ The following methodology was applied to fit severity distributions to the hazar
 • After optimal thresh-holds were determined for the middle and upper hazards, General Pareto distributions were fit on the top three thresholds (extreme, upper and middle), while a Weibull distribution was used to fit to the lower distribution
 
 ### Extreme hazard event parameters
+
 | Scale | Shape |
 | ----- | ----- |
 |135074.68 | -0.26 |
 
 ### Upper hazard event parameters
+
 | Region | Scale | Shape |
 | ------ | ----- | ----- |
 | 1 | 71197.09 | 0.04 |
@@ -258,6 +267,7 @@ The following methodology was applied to fit severity distributions to the hazar
 | 3 | 135074.68 | -0.26 |
 
 ### Middle hazard event parameters
+
 | Region | Scale | Shape |
 | ------ | ----- | ----- |
 | 1 | 3957.05 |	0.19 |
@@ -268,6 +278,7 @@ The following methodology was applied to fit severity distributions to the hazar
 | 6	| 5138.30 |	0.09 |
 
 ### Lower hazard event parameters
+
 | Region | Shape | Scale |
 | ------ | ----- | ----- |
 | 1 | 0.66 | 105.66 |
@@ -278,11 +289,13 @@ The following methodology was applied to fit severity distributions to the hazar
 | 6	| 0.65 | 83.14 |
 
 ### Extreme frequency
+
 | Region | Lambda |
 | ------ | ------ |
 | All |	0.08 |
 
 ### Upper frequency
+
 | Region | Lambda |
 | ------ | ------ |
 | 1	| 0.11 |
@@ -290,6 +303,7 @@ The following methodology was applied to fit severity distributions to the hazar
 | 3	| 0.05 |
 
 ### Middle frequency
+
 | Region | Size |	Mu |
 | ------ | ---- | -- |
 | 1	| 1.73 | 0.84 |
@@ -300,6 +314,7 @@ The following methodology was applied to fit severity distributions to the hazar
 | 6	| 0.68 | 0.23 |
 
 ### Lower frequency
+
 | Region | Size |	Mu |
 | ------ | ---- | -- |
 | 1	| 1.89 | 7.21 |
